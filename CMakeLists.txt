@@ -26,6 +26,8 @@ add_message_files(
   FW_Attitude_Commands.msg
   MR_Controller_Commands.msg
   Attitude.msg
+  Obstacle.msg
+  Obstacles.msg
 )
 
 generate_messages(
