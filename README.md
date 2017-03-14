@@ -23,3 +23,7 @@ Messages are named with a leading FW or MR to identify if the are for fixed wing
 
 * FW_cont_plot
 	This node plots fixed wing commands next to the responce and can be used to tunne the controller loops.  It should work durring simulation and actual flying. 
+
+*Geo.py
+	This module contains a class called Goebase that can be used to convert from meters in NED to GPS and back. It requires the installation of geographiclib. To perform this:
+	pip install geographiclib
